@@ -1,20 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background: url(./assets/workplace.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +10,47 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.formsection{
+  width: 500px;
+  height: 300px;
+  align-items: center;
+  margin: 1rem auto;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 21px 35px 10px rgba(22,42,83,0.7);
 }
+.fieldsection{
+  width: 80%;
+  margin: 1rem auto;
+  height: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+/* .fieldsection div{
+ 
+  margin: 1rem auto;
+  padding: 10px;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonsection{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonsection .buttons{
+  width: 100px;
+}
+.setwidth{
+  width: 80%;
+}
+.setfieldwidth{
+  width: 100%;
 }
